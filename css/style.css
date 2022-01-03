@@ -1,0 +1,286 @@
+/* -- CSS RESET --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structual styling--*/
+
+body {
+    background: #232323;
+    color: #333;
+    font-family: mrs-eaves, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@media only screen and (max-width: 900px) {
+    
+}
+
+.light {
+    background:#232323;
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+    margin-top:-120px;
+}
+
+.text{
+    background:#f7f7f7;
+    width:70%;
+    padding:2rem;
+    border-radius:25px;
+    margin-bottom:40px;
+
+}
+
+section, header {
+    width:80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+header {
+    padding-bottom: 3rem;
+    position:relative;
+
+}
+
+/*-- styling typography--*/
+ blockquote {
+    color:#124244;
+    width:500px;
+
+}
+
+
+p, blockquote {
+    margin-bottom: 0;
+    line-height: 1.4;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1em;
+    color: #000000; 
+    font-family: 'Libre Baskerville', serif;
+    position:relative;
+    z-index:9;
+    top: 110px;
+    right:36px;
+
+
+    
+
+}
+
+hr {
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.bg{ 
+    background-color:#ffffff;
+    min-width: 900px;
+    width:1800px;
+    height:4rem;
+    position:relative;
+    float:right;
+    top:50px;
+    left:-180px;
+    margin:auto;
+    opacity:0.6;
+    z-index:-1;
+    
+}
+
+.bg2{ 
+    background-color:#333;
+    min-width: 900px;
+    width:1800px;
+    height:10rem;
+    position:relative;
+    float:left;
+    top:100px;
+    left:240px;
+    margin:auto;
+    opacity:0.6;
+    z-index:-1;
+    
+}
+
+.d24 {
+    position:relative;
+    float:center;
+    width:500px;
+    left:350px;
+
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin: 0.5em 0 0.5em 0;
+    color: #124244;
+    text-align:center;
+    
+
+}
+
+.dark h2 {
+    font-size: 2.2rem;
+    position:relative;
+    top:-100px;
+    right:282px;
+    
+
+}
+
+blockquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.54rem;
+
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+
+    
+
+}
+
+p {
+    padding: 1rem;
+}
+
+cite {
+    font-size: 0.8em;
+    color: #333;
+    font-style: normal;
+
+}
+
+header h2 {
+    font-size: 2.6rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #f7f7f7;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+.dark {
+    background: url(../images/header.png) center;
+    background-repeat: no-repeat;
+    color:#f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 6px;
+    position: relative;
+    z-index: -2;
+}
+
+.dark p {
+    position:relative;
+    top:-150px;
+    right:100px;
+}
+
+
+li {
+    color: #f7f7f7;
+}
+
+/*--Styling nav--*/
+
+nav {
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width: 100%;
+    background: #124244;
+    padding: 0.2em 0;
+    font-size: 0.75rem;
+}
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color:#f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:#3d89a0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom:1rem;
+    margin-top:-5rem;
+}
+
+/*--experimental--*/
+
+.top {
+  position: relative;
+  bottom: 3rem;
+  right: -25rem;
+  border: none; 
+  outline: none; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  width: 90px;
+  text-align: center;
+
+  
+}
+
+.top:hover {
+    fill:#3d89a0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*-- Image control --*/
+img {
+    display: block;
+    margin: 4em 0 0 ;
+    max-width: 100%;
+
+}
+
+.gridimage {
+display:grid;
+grid-gap:10px;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.slut {
+    color: #f7f7f7
+
+}
