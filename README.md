@@ -1,2 +1,2 @@
 # crocoldiles
-[Version 1](https://flinkfeltm.github.io/crocoldiles/crocodiles.html)
+[Final edition](https://flinkfeltm.github.io/crocoldiles/crocodiles.html)
